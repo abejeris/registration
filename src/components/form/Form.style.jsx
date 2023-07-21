@@ -69,6 +69,7 @@ margin: auto;
             font-family: poppins;
             font-size: 28px;
             background-color: #f2877d;
+            cursor:pointer;
             
     }
 
