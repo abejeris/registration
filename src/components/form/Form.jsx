@@ -72,21 +72,21 @@ function Form() {
           <form onSubmit={handleSubmit}>
             <div className='input'>
               <label htmlFor="name">Name</label>
-              <input type="text" id="name" value={name} onChange={handleNameChange} />
+              <input type="text" id="name" value={name} onChange={handleNameChange} placeholder='Joy Shaheb'/>
               {errors.name && <span>{errors.name}</span>}
               <User />
             </div>
 
             <div className='input'>
               <label htmlFor="email">Email</label>
-              <input type="email" id="email" value={email} onChange={handleEmailChange} />
+              <input type="email" id="email" value={email} onChange={handleEmailChange} placeholder='abc@gmail.com'/>
               {errors.email && <span>{errors.email}</span>}
             <Mail/>
             </div>
 
             <div className='input'>
               <label htmlFor="password">Password</label>
-              <input type="password" id="password" value={password} onChange={handlePasswordChange} />
+              <input type="password" id="password" value={password} onChange={handlePasswordChange} placeholder='•••••••'/>
               {errors.password && <span>{errors.password}</span>}   <Lock/>
             </div>
 

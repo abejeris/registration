@@ -13,22 +13,29 @@ margin: auto;
             flex-direction: column;
             position: relative;
             margin-bottom: 10px;
+            font-weight: 300;
 
             label {
                 font-family: poppins;
                 padding: 5px 0;
-                font-size: 18px;
+                font-size: 24px;
             }
 
             input {
-                height: 40px;
+                height: 50px;
                 border-radius: 5px;
                 border: 2px solid #d3d3d3;
                 box-shadow: 0px 0px 5px #d3d3d3;
-                font-size: 18px;
-                padding-left: 50px;
+                font-size: 24px;
+                padding-left: 60px;
                 color: #a9a9a9;
                 font-weight: 100;
+
+                &::placeholder {
+                    color: #a9a9a9;
+                    font-weight: 300;
+                    font-family: poppins;
+                }
                 
                 &:focus {
                     outline: none;
@@ -42,11 +49,11 @@ margin: auto;
             }
 
             svg {
-                width: 20px;
-                height: 20px;
+                width: 24px;
+                height: 24px;
                 position: absolute;
-                left: 15px;
-                top: 50px;
+                left: 20px;
+                top: 62px;
                 g {
                     fill: #000;
                 
@@ -55,13 +62,14 @@ margin: auto;
         }
         button {
             padding: 10px;
-            margin-top: 30px;
+            margin: 30px 0;
             border: 0px;
             border-radius: 5px;
             color: white;
             font-family: poppins;
-            font-size: 20px;
+            font-size: 28px;
             background-color: #f2877d;
+            
     }
 
 `;

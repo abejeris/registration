@@ -5,7 +5,12 @@ export const StyledApp = styled.div`
     display: flex;
     justify-content: space-between;
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     margin: auto;
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+
+    }
 `;
