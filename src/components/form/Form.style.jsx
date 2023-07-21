@@ -29,7 +29,8 @@ margin: auto;
                 font-size: 24px;
                 padding-left: 60px;
                 color: #a9a9a9;
-                font-weight: 100;
+                font-weight: 300;
+                font-family: poppins;
 
                 &::placeholder {
                     color: #a9a9a9;
